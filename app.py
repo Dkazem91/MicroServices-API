@@ -128,7 +128,7 @@ def getRate(currency=None):
 @app.route('/api/convert', methods=['GET'])
 def getConversion():
     '''
-    Gives conversion rates based on amount
+    returns converted amount based on parameters
 
     Parameters
     ----------
